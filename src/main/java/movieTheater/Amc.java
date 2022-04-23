@@ -27,7 +27,7 @@ public class Amc extends Theater implements MovieService{
 
     @Override
     public void showAvailableMovies() {
-        String [] movies= {"one1","two2"};
+        String [] movies= {"one1","two2", "three"};
 
 
         System.out.println("Abvailable "+movies[0]+" and "+movies[1]+".");
